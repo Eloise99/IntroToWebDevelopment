@@ -1,0 +1,41 @@
+/*
+Creator: Eloise Ockenden
+Date created: 19.07.2020
+Date last modified:
+*/
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Calligraffitti';
+    font-size: 18px;
+    background-color: #25255248;
+}
+
+header.jumbotron, footer.jumbotron {
+    background-color:#5e60d16c;
+}
+
+nav {
+    padding-bottom:10px;
+
+}
+
+nav a.btn {
+    width: 150px;
+    font-size:1.2em;
+    background-color:#5e60d1b6;
+    color:#31326d;
+    text-align:center;
+}
+
+nav a:visited {
+    color:#515177ec;
+}
+
+nav a:hover {
+    color:#5e60d1b6;
+    background-color:#31326d;
+    font-weight:bold;
+}
+

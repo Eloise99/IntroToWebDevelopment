@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Eloise Ockenden
+    Date created: 13/07/2020
+    Most recent revision:
+-->
+<html lang="en">
+    <head>
+        <title>
+            Menu
+        </title>
+         <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/
+        4.1/getting-started/introduction/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Beth Ellen' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            table {
+                table-layout:fixed;
+                width:100%;
+            }
+            th, td {
+                padding-left: 10px;
+                padding-right: 10px;
+                width:33%;
+            }
+
+            th {
+                font-size: 1.2em;
+                background-color: #252652;
+                color:whitesmoke;
+            }
+            #tagline {
+                font-size: 0.8em;
+                font-style:italic;
+            }
+
+            #description {
+                background-color:#6264d841;
+            }
+            
+            #price {
+                padding-bottom:10px;
+                background-color:#a3a4d9;
+                margin-bottom:10px;
+                font-weight:bold;
+            }
+
+            #price-b {
+                font-weight:bold;
+            }
+            
+            #bev {
+                background-color:#6264d841;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header class="jumbotron">
+            <h1 style="font-weight:bold">Harmony Restaurant</h1>
+            <h6>Genuine Scottish cuisine in the heart of Inverness</h6>
+        </header>
+        <div class="container">
+            <nav class="row">
+                <hr />
+                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a class="btn" href="index.html"><em>Home</em></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a class="btn" href="menu.html">Menu</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                    <a class="btn" href="contact.html">Contact Us</a>
+                </div>
+                <hr />
+            </nav>
+
+            <table>
+                <tr id="dish">
+                    <th>Full Scottish Breakfast</th>
+                    <th>Mini Scottish Breakfast</th>
+                    <th>Vegetarian Scottish Breakfast</th>
+                </tr>
+                <tr>
+                    <td id="tagline">Complete with haggis</td>
+                    <td id="tagline">A taste of Scotland</td>
+                    <td id="tagline">Meatless delight</td>
+                </tr>
+                <tr id="description">
+                    <td id="description">Sausages, fried eggs, bacon and haggis <br />
+                    with hash browns, tomatoes and mushrooms<br />
+                    Served with white or brown toast and butter</td>
+                    <td id="description">Haggis, served with scrambled or fried egg <br />
+                    with mushrooms and tomatoes <br />
+                    Served with white or brown toast and butter</td>
+                    <td id="description">Vegetarian haggis, with eggs and vegetarian sausages <br />
+                    with hash browns, tomatoes and mushrooms<br />
+                    Served with white or brown toast with butter</td>
+                </tr>
+                <tr id="price">
+                    <td id="price">£10.95</td>
+                    <td id="price">£8.95</td>
+                    <td id="price">£10.95</td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:10px"></td>
+                    <td style="padding-bottom:10px"></td>
+                    <td style="padding-bottom:10px"></td>
+                </tr>
+                <tr id="dish">
+                    <th>Simply Toast</th>
+                    <th>Salmon and Potatoes</th>
+                    <th>Bangers and Mash</th>
+                </tr>
+                <tr>
+                    <td id="tagline">A light snack</td>
+                    <td id="tagline">Home caught in Scotland</td>
+                    <td id="tagline">A hearty and delicious meal</td>
+                </tr>
+                <tr id="description">
+                    <td id="description">Brown, white or granary toast <br />
+                    Served with a choice of jams and spreads</td>
+                    <td id="description">Scottish salmon served with a choice of chips or boiled potatoes <br />
+                    Served with seasonal vegetables </td>
+                    <td id="description">High quality sausages served with creamy mash potato and gravy <br />
+                    Vegetarian sausages also available</td>
+                </tr>
+                <tr id="price">
+                    <td id="price">£3.95</td>
+                    <td id="price">£12.95</td>
+                    <td id="price">£11.95</td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:10px"></td>
+                    <td style="padding-bottom:10px"></td>
+                    <td style="padding-bottom:10px"></td>
+                </tr>
+
+            </table>
+
+            <table class="table table-striped" id="bev">
+                <tr>
+                   <th colspan="2">Beverages</th> 
+                </tr>
+                <tr>
+                    <td>Breakfast Tea</td>
+                    <td id="price-b">£2.00</td>
+                </tr>
+                <tr>
+                    <td>Americano</td>
+                    <td id="price-b">£2.00</td>
+                </tr>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td id="price-b">£2.20</td>
+                </tr>
+                <tr>
+                    <td>Orange Juice</td>
+                    <td id="price-b">£2.40</td>
+                </tr>
+            </table>
+
+            <footer class="jumbotron">
+                <p>44 Richmond Drive, Inverness, Invernesshire, IV3 4KD</p>
+                <p>07846 378269</p>
+            </footer>
+        </div>
+         <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+         crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+         crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+         crossorigin="anonymous"></script>
+    </body>
+</html>
